@@ -1,6 +1,7 @@
 name: Dry Run Check
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - renovate/**
